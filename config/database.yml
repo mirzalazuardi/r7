@@ -12,6 +12,8 @@ development:
 test:
   <<: *default
   port: 5433
+  username: root
+  password: password
   database: r7_test
 production:
   <<: *default
